@@ -3,7 +3,11 @@ import Foundation
 struct Usuario: Identifiable, Decodable{
     var id: Int?
     var nome: String?
-    var date: Int?
+    var idade: Int?
     var peso: Float?
-    var sexo: Char?
+    var sexo: Sexo?
+    
+    enum Sexo: String, Decodable {
+        case mulher, homem
+    }
 }
