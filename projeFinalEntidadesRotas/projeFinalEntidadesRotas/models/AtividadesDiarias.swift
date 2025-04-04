@@ -9,9 +9,8 @@ import Foundation
 
 
 struct AtividadesDiarias: Identifiable, Decodable{
-    
     var id: Int?
     var name: String?
-    
-    
+    var isCompleted: Bool? = false
+    var date: Date?
 }
