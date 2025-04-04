@@ -11,7 +11,7 @@ import SwiftUI
 struct projeFinalEntidadesRotasApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Home()
         }
     }
 }
