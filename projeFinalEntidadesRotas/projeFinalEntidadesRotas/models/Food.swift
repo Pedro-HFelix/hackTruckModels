@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Food: Identifiable, Codable {
+struct Food: Identifiable, Decodable {
     var id: Int?
     var name: String?
     var description: String?
