@@ -1,7 +1,7 @@
 import Foundation
 
-class ViewMedicamento: ObservableObject {
-    @Published var medicamento: Medicamento?
+class ViewDailyFood: ObservableObject {
+    @Published var dailyFood: DailyFood?
     
     func fetch() {
         guard let url = URL(string: "") else {
@@ -13,9 +13,9 @@ class ViewMedicamento: ObservableObject {
                 return
             }
             do {
-                let parsed = try JSONDecoder().decode(Medicamento.self, from: data)
+                let parsed = try JSONDecoder().decode(DailyFood.self, from: data)
                 DispatchQueue.main.async {
-                    self?.medicamento = parsed
+                    self?.dailyFood = parsed
                 }
             } catch {
                 print("Erro ao decodificar: \(error)")

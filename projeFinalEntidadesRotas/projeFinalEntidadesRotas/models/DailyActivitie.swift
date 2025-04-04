@@ -8,7 +8,7 @@
 import Foundation
 
 
-struct DailyActivities: Identifiable, Decodable{
+struct DailyActivitie: Identifiable, Decodable{
     var id: Int?
     var name: String?
     var isCompleted: Bool? = false

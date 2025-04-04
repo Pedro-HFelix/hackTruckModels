@@ -1,7 +1,7 @@
 import Foundation
 
-class ViewUsuario: ObservableObject {
-    @Published var usuario: Usuario?
+class ViewUser: ObservableObject {
+    @Published var user: User?
     
     func fetch() {
         guard let url = URL(string: "") else {
@@ -13,9 +13,9 @@ class ViewUsuario: ObservableObject {
                 return
             }
             do {
-                let parsed = try JSONDecoder().decode(Usuario.self, from: data)
+                let parsed = try JSONDecoder().decode(User.self, from: data)
                 DispatchQueue.main.async {
-                    self?.usuario = parsed
+                    self?.user = parsed
                 }
             } catch {
                 print("Erro ao decodificar: \(error)")

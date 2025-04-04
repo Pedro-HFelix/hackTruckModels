@@ -7,11 +7,11 @@
 
 import Foundation
 
-struct Medicamento: Identifiable, Decodable{
+struct Medicine: Identifiable, Decodable{
     
     var id: Int?
     var name: String?
     var description: String?
     var frequency: Int?
-    var horario: Date?
+    var schedule: Date?
 }
