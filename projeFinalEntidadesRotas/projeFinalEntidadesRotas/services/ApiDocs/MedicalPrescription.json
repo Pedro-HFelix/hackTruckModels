@@ -1,0 +1,153 @@
+{
+    "medicine": [
+            {
+                "name": "Infliximabe",
+                "dosage": "10mg/kg",
+                "frequency-per-hour": null,
+                "frequency-per-day": null,
+                "frequency-per-week": 1,
+                "duration": "6 months"
+            },
+            {
+                "name": "Prednisona",
+                "dosage": "5g/kg",
+                "frequency-per-hour": 6,
+                "frequency-per-day": 2,
+                "frequency-per-week": null,
+                "duration": "6 months"
+            }
+        ],
+    "daily-water-liters": 2.1,
+    "food": {
+        "title": "Estrutura de Dieta para Doença de Crohn (Adaptável)",
+        "general_considerations": [
+          "Pequenas refeições frequentes (5-6 ao longo do dia).",
+          "Mastigar bem os alimentos.",
+          "Beber bastante líquido (principalmente água). Evitar bebidas açucaradas e gaseificadas.",
+          "Evitar alimentos processados e ultraprocessados.",
+          "Observar a tolerância individual (manter um diário alimentar pode ajudar).",
+          "Cozinhar os alimentos de forma simples (cozidos, assados, grelhados, vapor). Evitar frituras.",
+          "Introduzir novos alimentos gradualmente.",
+          "Jejum intermitente não é geralmente recomendado para Crohn."
+        ],
+        "diet": [
+          {
+            "period": "Ao Acordar (Café da Manhã)",
+            "options": [
+              {
+                "option": 1,
+                "description": "Chá de camomila ou gengibre (infusão suave), com torradas de pão branco (sem glúten, se necessário) com um fio de azeite.",
+                "considerations": "Evitar café forte e leite integral pela manhã, pois podem ser irritantes para algumas pessoas."
+              },
+              {
+                "option": 2,
+                "description": "Suco de frutas coado e diluído (maçã, pera), com biscoito de polvilho.",
+                "considerations": "Evitar café forte e leite integral pela manhã, pois podem ser irritantes para algumas pessoas."
+              }
+            ]
+          },
+          {
+            "period": "Lanche da Manhã (2-3 horas após o café da manhã)",
+            "option": [
+              {
+                "option": 1,
+                "description": "Iogurte natural sem lactose com uma fruta cozida (banana, maçã sem casca)."
+              },
+              {
+                "option": 2,
+                "description": "Purê de frutas (maçã, pera)."
+              },
+              {
+                "option": 3,
+                "description": "Caldo de legumes coado."
+              }
+            ],
+            "considerations": "Escolher opções leves e de fácil digestão."
+          },
+          {
+            "period": "Almoço",
+            "option": [
+              {
+                "option": 1,
+                "description": "Arroz branco bem cozido, frango cozido desfiado ou peixe branco grelhado, purê de batata ou mandioquinha, legumes cozidos e amassados (abóbora, cenoura).",
+                "considerations": "Evitar alimentos integrais, folhas cruas, carnes vermelhas gordurosas e alimentos muito condimentados durante a crise. Em remissão, a variedade pode ser maior, dependendo da tolerância."
+              },
+              {
+                "option": 2,
+                "description": "Sopa cremosa de legumes com carne magra moída.",
+                "considerations": "Evitar alimentos integrais, folhas cruas, carnes vermelhas gordurosas e alimentos muito condimentados durante a crise. Em remissão, a variedade pode ser maior, dependendo da tolerância."
+              }
+            ]
+          },
+          {
+            "period": "Lanche da Tarde (2-3 horas após o almoço)",
+            "option": [
+              {
+                "option": 1,
+                "description": "Gelatina sem açúcar."
+              },
+              {
+                "option": 2,
+                "description": "Frutas cozidas ou assadas (sem casca e sem sementes)."
+              },
+              {
+                "option": 3,
+                "description": "Bebida vegetal (arroz, amêndoa) com uma colher de chá de mel (se tolerado)."
+              }
+            ],
+            "considerations": "Manter a leveza e a fácil digestão."
+          },
+          {
+            "period": "Jantar",
+            "option": [
+              {
+                "option": 1,
+                "description": "Canja de galinha com legumes bem cozidos."
+              },
+              {
+                "option": 2,
+                "description": "Omelete com legumes cozidos picados (evitar queijos gordurosos)."
+              },
+              {
+                "option": 3,
+                "description": "Creme de batata com carne magra desfiada."
+              }
+            ],
+            "considerations": "Optar por refeições mais leves à noite para facilitar a digestão durante o sono."
+          },
+          {
+            "period": "Ceia (Opcional)",
+            "option": [
+              {
+                "option": 1,
+                "description": "Chá de ervas calmante."
+              },
+              {
+                "option": 2,
+                "description": "Pequena porção de fruta cozida."
+              }
+            ],
+            "considerations": "Se houver necessidade de comer antes de dormir, escolher algo muito leve."
+          }
+        ],
+        "frequently_avoided_foods": [
+          "Alimentos ricos em fibras insolúveis (cereais integrais, farelos, frutas com casca e sementes, vegetais crus).",
+          "Alimentos gordurosos e fritos.",
+          "Laticínios (muitas pessoas com Crohn têm intolerância à lactose).",
+          "Alimentos condimentados e picantes.",
+          "Bebidas gaseificadas.",
+          "Álcool e cafeína.",
+          "Alimentos processados e ultraprocessados.",
+          "Alguns adoçantes artificiais."
+        ],
+        "potentially_tolerated_foods": [
+          "Fibras solúveis (aveia, psyllium - com orientação profissional).",
+          "Proteínas magras (frango, peixe, ovos, tofu).",
+          "Carboidratos refinados (arroz branco, pão branco, massas não integrais).",
+          "Frutas e vegetais cozidos e sem casca/sementes.",
+          "Iogurte natural sem lactose (para alguns)."
+        ],
+        "supplementation": "Em muitos casos, a suplementação de vitaminas e minerais pode ser necessária. Deve ser avaliada e prescrita por profissional de saúde.",
+        "important_reinforcement": "A dieta para Doença de Crohn é altamente pessoal e dinâmica, precisando ser ajustada ao longo do tempo com orientação profissional."
+    }
+}
