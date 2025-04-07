@@ -3,8 +3,8 @@ import Foundation
 class ViewDailyActivitie: ObservableObject {
     @Published var dailyActivitie: DailyActivitie?
     
-    func fetch() {
-        guard let url = URL(string: "") else {
+    func GETDailyActivitie() {
+        guard let url = URL(string: "http://192.168.128.7:1880/dailyActivitieGET") else {
             return
         }
 

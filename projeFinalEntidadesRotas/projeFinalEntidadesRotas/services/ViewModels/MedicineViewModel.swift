@@ -3,8 +3,8 @@ import Foundation
 class ViewMedicine: ObservableObject {
     @Published var medicine: Medicine?
     
-    func fetch() {
-        guard let url = URL(string: "") else {
+    func GETMedicine() {
+        guard let url = URL(string: "http://192.168.128.7:1880/medicineGET") else {
             return
         }
 

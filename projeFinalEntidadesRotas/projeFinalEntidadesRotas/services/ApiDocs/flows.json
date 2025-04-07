@@ -1,0 +1,1454 @@
+[
+    {
+        "id": "e4e39bac6c499267",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "0546c927cf9b9e47",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "8fc3bde917d8ba7e",
+        "type": "tab",
+        "label": "Flow 3",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "c9990a8a51fed535",
+        "type": "tab",
+        "label": "User",
+        "disabled": false,
+        "info": "CRUD usuário.",
+        "env": []
+    },
+    {
+        "id": "c7da5c1f9b91c2d8",
+        "type": "tab",
+        "label": "DailyAcivitie",
+        "disabled": false,
+        "info": "CRUD tarefa.",
+        "env": []
+    },
+    {
+        "id": "6cef532613b90b5e",
+        "type": "tab",
+        "label": "Medicine",
+        "disabled": false,
+        "info": "CRUD medicamento.",
+        "env": []
+    },
+    {
+        "id": "531982eaf2e4e0fa",
+        "type": "tab",
+        "label": "Food",
+        "disabled": false,
+        "info": "CRUD alimento.",
+        "env": []
+    },
+    {
+        "id": "7fb03d4e920acbcf",
+        "type": "tab",
+        "label": "DailyFood",
+        "disabled": false,
+        "info": "CRUD consultas.",
+        "env": []
+    },
+    {
+        "id": "cbb2ad10a42456e4",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "7d67fe2d05900fff",
+        "type": "ui_tab",
+        "name": "Tab 1",
+        "icon": "dashboard",
+        "order": 1
+    },
+    {
+        "id": "cddc80d7b3c9925b",
+        "type": "ui_group",
+        "name": "Home",
+        "tab": "7d67fe2d05900fff",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "182b0c132b9e1eb6",
+        "type": "cloudantplus",
+        "host": "https://apikey-v2-16d9pc9gjneh8on884qeslyhcih917bgxgtclub94xtt:02d33f7efed8fbdd9ebad5e26f041d13@8472bb0f-4f34-4675-bd25-3cf7a52343d1-bluemix.cloudantnosqldb.appdomain.cloud",
+        "name": "Ultima",
+        "useapikey": true
+    },
+    {
+        "id": "795d52a76d8cf8d5",
+        "type": "cloudantplus",
+        "host": "https://f1c0dcf9-5075-4061-a1f8-2f4ca596058a-bluemix.cloudantnosqldb.appdomain.cloud",
+        "name": "CrohnDiarioServer",
+        "useapikey": true
+    },
+    {
+        "id": "01d93c11a142c29a",
+        "type": "cloudantplus",
+        "host": "https://apikey-v2-1jalvvifxebbrd0wyiftras1w4xeo64yt6ddm9xef5x9:e8bc0e2c82bae656c5c475889e535dcb@bbd3c0ee-d0c8-455b-bbd3-8d6d996c2c0a-bluemix.cloudantnosqldb.appdomain.cloud",
+        "name": "",
+        "useapikey": true
+    },
+    {
+        "id": "50877eda9bcd1cfc",
+        "type": "cloudantplus",
+        "host": "https://f1c0dcf9-5075-4061-a1f8-2f4ca596058a-bluemix.cloudantnosqldb.appdomain.cloud",
+        "name": "CredencialHeloisa",
+        "useapikey": true
+    },
+    {
+        "id": "f4b62d98f9a77cc7",
+        "type": "cloudantplus out",
+        "z": "e4e39bac6c499267",
+        "name": "",
+        "cloudant": "50877eda9bcd1cfc",
+        "database": "banco-sensor-umidade_heloisa",
+        "service": "_ext_",
+        "payonly": true,
+        "operation": "insert",
+        "x": 470,
+        "y": 240,
+        "wires": [
+            [
+                "bd0a5a84f7470a65"
+            ]
+        ]
+    },
+    {
+        "id": "0033d699712c6d03",
+        "type": "http in",
+        "z": "e4e39bac6c499267",
+        "name": "",
+        "url": "/postAula1Heloisa",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 170,
+        "y": 240,
+        "wires": [
+            [
+                "f4b62d98f9a77cc7"
+            ]
+        ]
+    },
+    {
+        "id": "bd0a5a84f7470a65",
+        "type": "http response",
+        "z": "e4e39bac6c499267",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 710,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "f667aa6a4565c784",
+        "type": "http in",
+        "z": "e4e39bac6c499267",
+        "name": "",
+        "url": "/getAula1Heloisa",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 260,
+        "y": 320,
+        "wires": [
+            [
+                "3312f1faaf583059"
+            ]
+        ]
+    },
+    {
+        "id": "74e2f68bedcac4be",
+        "type": "http response",
+        "z": "e4e39bac6c499267",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 770,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "3312f1faaf583059",
+        "type": "cloudantplus in",
+        "z": "e4e39bac6c499267",
+        "name": "",
+        "cloudant": "50877eda9bcd1cfc",
+        "database": "banco-sensor-umidade_heloisa",
+        "service": "_ext_",
+        "search": "_all_",
+        "design": "",
+        "index": "",
+        "x": 550,
+        "y": 320,
+        "wires": [
+            [
+                "74e2f68bedcac4be"
+            ]
+        ]
+    },
+    {
+        "id": "9e95bb2057a7fc2c",
+        "type": "cloudantplus out",
+        "z": "e4e39bac6c499267",
+        "name": "",
+        "cloudant": "50877eda9bcd1cfc",
+        "database": "banco-sensor-umidade_heloisa",
+        "service": "_ext_",
+        "payonly": true,
+        "operation": "insert",
+        "x": 510,
+        "y": 140,
+        "wires": [
+            [
+                "f776d4566348e40e"
+            ]
+        ]
+    },
+    {
+        "id": "4e78d91586a2ae1b",
+        "type": "http in",
+        "z": "e4e39bac6c499267",
+        "name": "",
+        "url": "/putAula1Heloisa",
+        "method": "put",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 200,
+        "y": 140,
+        "wires": [
+            [
+                "9e95bb2057a7fc2c"
+            ]
+        ]
+    },
+    {
+        "id": "f776d4566348e40e",
+        "type": "http response",
+        "z": "e4e39bac6c499267",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 750,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "789bab9be2652aa7",
+        "type": "play audio",
+        "z": "0546c927cf9b9e47",
+        "name": "",
+        "voice": "",
+        "x": 590,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "09b1b2b987afd07a",
+        "type": "inject",
+        "z": "0546c927cf9b9e47",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "\"Aula de IA Generativa do Hackatruck\"",
+        "payloadType": "str",
+        "x": 70,
+        "y": 60,
+        "wires": [
+            [
+                "7f3719b224337188"
+            ]
+        ]
+    },
+    {
+        "id": "92fb440bc684fc51",
+        "type": "watson-speech-to-text",
+        "z": "0546c927cf9b9e47",
+        "name": "",
+        "alternatives": 1,
+        "speakerlabels": true,
+        "smartformatting": false,
+        "lang": "",
+        "langhidden": "",
+        "langcustom": "",
+        "langcustomhidden": "",
+        "custom-weight": "0.5",
+        "band": "",
+        "bandhidden": "",
+        "keywords": "",
+        "keywords-threshold": "0.5",
+        "word-confidence": false,
+        "password": "",
+        "apikey": "",
+        "payload-response": false,
+        "streaming-mode": false,
+        "streaming-mute": true,
+        "auto-connect": false,
+        "discard-listening": false,
+        "disable-precheck": false,
+        "service-endpoint": "",
+        "x": 280,
+        "y": 240,
+        "wires": [
+            [
+                "42d92c3abc4186d0"
+            ]
+        ]
+    },
+    {
+        "id": "f26f578dd2aca068",
+        "type": "debug",
+        "z": "0546c927cf9b9e47",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 580,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "e15b90786f0698f4",
+        "type": "microphone",
+        "z": "0546c927cf9b9e47",
+        "name": "",
+        "x": 70,
+        "y": 240,
+        "wires": [
+            [
+                "92fb440bc684fc51"
+            ]
+        ]
+    },
+    {
+        "id": "7f3719b224337188",
+        "type": "watson-text-to-speech",
+        "z": "0546c927cf9b9e47",
+        "name": "",
+        "lang": "pt-BR",
+        "langhidden": "pt-BR",
+        "langcustom": "NoCustomisationSetting",
+        "langcustomhidden": "",
+        "voice": "pt-BR_IsabelaV3Voice",
+        "voicehidden": "",
+        "format": "audio/wav",
+        "password": "",
+        "apikey": "UXXVc7_5QvvO321xP28tUPvPRXta-uwHC7vu0_nnlPbv",
+        "payload-response": false,
+        "service-endpoint": "https://api.us-south.text-to-speech.watson.cloud.ibm.com/instances/ca0f19aa-712b-43fe-8efe-9fc20eb29211",
+        "x": 300,
+        "y": 60,
+        "wires": [
+            [
+                "f26f578dd2aca068",
+                "789bab9be2652aa7"
+            ]
+        ]
+    },
+    {
+        "id": "42d92c3abc4186d0",
+        "type": "debug",
+        "z": "0546c927cf9b9e47",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "a9b52f465b473f1e",
+        "type": "natural-language-understanding",
+        "z": "8fc3bde917d8ba7e",
+        "name": "",
+        "categories": false,
+        "limitcategories": "3",
+        "classifications": false,
+        "classifications-model": "8",
+        "concepts": false,
+        "maxconcepts": "8",
+        "doc-emotion": false,
+        "doc-emotion-target": "",
+        "doc-sentiment": false,
+        "doc-sentiment-target": "",
+        "entity": false,
+        "entity-emotion": false,
+        "entity-sentiment": false,
+        "maxentities": "50",
+        "keyword": false,
+        "keyword-emotion": false,
+        "keyword-sentiment": false,
+        "maxkeywords": "50",
+        "metadata": false,
+        "relation": false,
+        "semantic": false,
+        "semantic-entities": false,
+        "semantic-keywords": false,
+        "maxsemantics": "50",
+        "limittextcharacters": "0",
+        "syntax": false,
+        "syntax-sentences": false,
+        "syntax-tokens-lemma": false,
+        "syntax-tokens-pos": false,
+        "service-endpoint": "",
+        "x": 240,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d4f690a13ef24485",
+        "type": "http in",
+        "z": "c9990a8a51fed535",
+        "name": "",
+        "url": "/userPOST",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 140,
+        "y": 100,
+        "wires": [
+            [
+                "19480a3ab0398f6e"
+            ]
+        ]
+    },
+    {
+        "id": "3cd259dd8c7472b1",
+        "type": "http in",
+        "z": "c9990a8a51fed535",
+        "name": "",
+        "url": "/userPUT",
+        "method": "put",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 130,
+        "y": 180,
+        "wires": [
+            [
+                "afbc9a1d9da05655"
+            ]
+        ]
+    },
+    {
+        "id": "ecc019ad756d5033",
+        "type": "http in",
+        "z": "c9990a8a51fed535",
+        "name": "",
+        "url": "/userDELETE",
+        "method": "delete",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 160,
+        "y": 260,
+        "wires": [
+            [
+                "fa67c97fa113c232"
+            ]
+        ]
+    },
+    {
+        "id": "3c2a9f1e0dd70e15",
+        "type": "http in",
+        "z": "c9990a8a51fed535",
+        "name": "",
+        "url": "/userGET",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 130,
+        "y": 340,
+        "wires": [
+            [
+                "aa9fca18dec6e338"
+            ]
+        ]
+    },
+    {
+        "id": "19480a3ab0398f6e",
+        "type": "cloudantplus out",
+        "z": "c9990a8a51fed535",
+        "name": "",
+        "cloudant": "795d52a76d8cf8d5",
+        "database": "crohn-diario",
+        "service": "_ext_",
+        "payonly": true,
+        "operation": "insert",
+        "x": 410,
+        "y": 100,
+        "wires": [
+            [
+                "2f3bb1b2dcf6e32e"
+            ]
+        ]
+    },
+    {
+        "id": "afbc9a1d9da05655",
+        "type": "cloudantplus out",
+        "z": "c9990a8a51fed535",
+        "name": "",
+        "cloudant": "795d52a76d8cf8d5",
+        "database": "crohn-diario",
+        "service": "_ext_",
+        "payonly": true,
+        "operation": "insert",
+        "x": 410,
+        "y": 180,
+        "wires": [
+            [
+                "778b2dbfcfadfa09"
+            ]
+        ]
+    },
+    {
+        "id": "fa67c97fa113c232",
+        "type": "cloudantplus out",
+        "z": "c9990a8a51fed535",
+        "name": "",
+        "cloudant": "795d52a76d8cf8d5",
+        "database": "crohn-diario",
+        "service": "_ext_",
+        "payonly": true,
+        "operation": "delete",
+        "x": 410,
+        "y": 260,
+        "wires": [
+            [
+                "58cb58bdb2dd979e"
+            ]
+        ]
+    },
+    {
+        "id": "aa9fca18dec6e338",
+        "type": "cloudantplus in",
+        "z": "c9990a8a51fed535",
+        "name": "",
+        "cloudant": "795d52a76d8cf8d5",
+        "database": "crohn-diario",
+        "service": "_ext_",
+        "search": "_id_",
+        "design": "",
+        "index": "",
+        "x": 410,
+        "y": 340,
+        "wires": [
+            [
+                "bd6fd2d267e1d358"
+            ]
+        ]
+    },
+    {
+        "id": "2f3bb1b2dcf6e32e",
+        "type": "http response",
+        "z": "c9990a8a51fed535",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 650,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "778b2dbfcfadfa09",
+        "type": "http response",
+        "z": "c9990a8a51fed535",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 650,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "58cb58bdb2dd979e",
+        "type": "http response",
+        "z": "c9990a8a51fed535",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 650,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "bd6fd2d267e1d358",
+        "type": "http response",
+        "z": "c9990a8a51fed535",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 650,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "fa576057f2adbade",
+        "type": "http in",
+        "z": "c7da5c1f9b91c2d8",
+        "name": "",
+        "url": "/dailyActivitiePOST",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 230,
+        "y": 120,
+        "wires": [
+            [
+                "f15a666d9678847b"
+            ]
+        ]
+    },
+    {
+        "id": "c20eadc5fa611e6c",
+        "type": "http in",
+        "z": "c7da5c1f9b91c2d8",
+        "name": "",
+        "url": "/dailyActivitiePUT",
+        "method": "put",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 220,
+        "y": 200,
+        "wires": [
+            [
+                "4b8be38d0a952f1f"
+            ]
+        ]
+    },
+    {
+        "id": "cd6d57ef5a295133",
+        "type": "http in",
+        "z": "c7da5c1f9b91c2d8",
+        "name": "",
+        "url": "/dailyActivitieDELETE",
+        "method": "delete",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 240,
+        "y": 280,
+        "wires": [
+            [
+                "a9c08b47292b4147"
+            ]
+        ]
+    },
+    {
+        "id": "e7941052c2f91cc2",
+        "type": "http in",
+        "z": "c7da5c1f9b91c2d8",
+        "name": "",
+        "url": "/dailyActivitieGET",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 220,
+        "y": 360,
+        "wires": [
+            [
+                "9d9d69467b63dcf6"
+            ]
+        ]
+    },
+    {
+        "id": "f15a666d9678847b",
+        "type": "cloudantplus out",
+        "z": "c7da5c1f9b91c2d8",
+        "name": "",
+        "cloudant": "795d52a76d8cf8d5",
+        "database": "crohn-diario",
+        "service": "_ext_",
+        "payonly": true,
+        "operation": "insert",
+        "x": 470,
+        "y": 120,
+        "wires": [
+            [
+                "5ea355edcfdb3d66"
+            ]
+        ]
+    },
+    {
+        "id": "4b8be38d0a952f1f",
+        "type": "cloudantplus out",
+        "z": "c7da5c1f9b91c2d8",
+        "name": "",
+        "cloudant": "795d52a76d8cf8d5",
+        "database": "crohn-diario",
+        "service": "_ext_",
+        "payonly": true,
+        "operation": "insert",
+        "x": 470,
+        "y": 200,
+        "wires": [
+            [
+                "b685db5a96cf5b5d"
+            ]
+        ]
+    },
+    {
+        "id": "a9c08b47292b4147",
+        "type": "cloudantplus out",
+        "z": "c7da5c1f9b91c2d8",
+        "name": "",
+        "cloudant": "795d52a76d8cf8d5",
+        "database": "crohn-diario",
+        "service": "_ext_",
+        "payonly": true,
+        "operation": "delete",
+        "x": 470,
+        "y": 280,
+        "wires": [
+            [
+                "0254c51241bd0b0c"
+            ]
+        ]
+    },
+    {
+        "id": "9d9d69467b63dcf6",
+        "type": "cloudantplus in",
+        "z": "c7da5c1f9b91c2d8",
+        "name": "",
+        "cloudant": "795d52a76d8cf8d5",
+        "database": "crohn-diario",
+        "service": "_ext_",
+        "search": "_id_",
+        "design": "",
+        "index": "",
+        "x": 470,
+        "y": 360,
+        "wires": [
+            [
+                "066b3b95f7c15e0e"
+            ]
+        ]
+    },
+    {
+        "id": "5ea355edcfdb3d66",
+        "type": "http response",
+        "z": "c7da5c1f9b91c2d8",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 710,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "b685db5a96cf5b5d",
+        "type": "http response",
+        "z": "c7da5c1f9b91c2d8",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 710,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "0254c51241bd0b0c",
+        "type": "http response",
+        "z": "c7da5c1f9b91c2d8",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 710,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "066b3b95f7c15e0e",
+        "type": "http response",
+        "z": "c7da5c1f9b91c2d8",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 710,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "a2ac058a68e7339e",
+        "type": "http in",
+        "z": "6cef532613b90b5e",
+        "name": "",
+        "url": "/medicinePOST",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 220,
+        "y": 120,
+        "wires": [
+            [
+                "b200c07fe61aa60f"
+            ]
+        ]
+    },
+    {
+        "id": "c8a2968a87e4417b",
+        "type": "http in",
+        "z": "6cef532613b90b5e",
+        "name": "",
+        "url": "/medicinePUT",
+        "method": "put",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 210,
+        "y": 200,
+        "wires": [
+            [
+                "96747256f53683ac"
+            ]
+        ]
+    },
+    {
+        "id": "410101836ca32de9",
+        "type": "http in",
+        "z": "6cef532613b90b5e",
+        "name": "",
+        "url": "/medicineDELETE",
+        "method": "delete",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 230,
+        "y": 280,
+        "wires": [
+            [
+                "cdbe70f8e3649cb5"
+            ]
+        ]
+    },
+    {
+        "id": "a9c33069c809f9a6",
+        "type": "http in",
+        "z": "6cef532613b90b5e",
+        "name": "",
+        "url": "/medicineGET",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 210,
+        "y": 360,
+        "wires": [
+            [
+                "fe1e7dcc4c36c32f"
+            ]
+        ]
+    },
+    {
+        "id": "b200c07fe61aa60f",
+        "type": "cloudantplus out",
+        "z": "6cef532613b90b5e",
+        "name": "",
+        "cloudant": "795d52a76d8cf8d5",
+        "database": "crohn-diario",
+        "service": "_ext_",
+        "payonly": true,
+        "operation": "insert",
+        "x": 470,
+        "y": 120,
+        "wires": [
+            [
+                "28c16b9c325872c9"
+            ]
+        ]
+    },
+    {
+        "id": "96747256f53683ac",
+        "type": "cloudantplus out",
+        "z": "6cef532613b90b5e",
+        "name": "",
+        "cloudant": "795d52a76d8cf8d5",
+        "database": "crohn-diario",
+        "service": "_ext_",
+        "payonly": true,
+        "operation": "insert",
+        "x": 470,
+        "y": 200,
+        "wires": [
+            [
+                "cb6105d8ae9fa06e"
+            ]
+        ]
+    },
+    {
+        "id": "cdbe70f8e3649cb5",
+        "type": "cloudantplus out",
+        "z": "6cef532613b90b5e",
+        "name": "",
+        "cloudant": "795d52a76d8cf8d5",
+        "database": "crohn-diario",
+        "service": "_ext_",
+        "payonly": true,
+        "operation": "delete",
+        "x": 470,
+        "y": 280,
+        "wires": [
+            [
+                "153ce3b58fbf61be"
+            ]
+        ]
+    },
+    {
+        "id": "fe1e7dcc4c36c32f",
+        "type": "cloudantplus in",
+        "z": "6cef532613b90b5e",
+        "name": "",
+        "cloudant": "795d52a76d8cf8d5",
+        "database": "crohn-diario",
+        "service": "_ext_",
+        "search": "_id_",
+        "design": "",
+        "index": "",
+        "x": 470,
+        "y": 360,
+        "wires": [
+            [
+                "ea735ab7edddca26"
+            ]
+        ]
+    },
+    {
+        "id": "28c16b9c325872c9",
+        "type": "http response",
+        "z": "6cef532613b90b5e",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 710,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "cb6105d8ae9fa06e",
+        "type": "http response",
+        "z": "6cef532613b90b5e",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 710,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "153ce3b58fbf61be",
+        "type": "http response",
+        "z": "6cef532613b90b5e",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 710,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "ea735ab7edddca26",
+        "type": "http response",
+        "z": "6cef532613b90b5e",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 710,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "5233fb438a5ec382",
+        "type": "http in",
+        "z": "531982eaf2e4e0fa",
+        "name": "",
+        "url": "/foodPOST",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 200,
+        "y": 120,
+        "wires": [
+            [
+                "99921f896e9e9bc2"
+            ]
+        ]
+    },
+    {
+        "id": "9a93e22457b5a31e",
+        "type": "http in",
+        "z": "531982eaf2e4e0fa",
+        "name": "",
+        "url": "/foodPUT",
+        "method": "put",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 200,
+        "y": 200,
+        "wires": [
+            [
+                "25ddcaccf4e5d627"
+            ]
+        ]
+    },
+    {
+        "id": "eb466942a37b5fb4",
+        "type": "http in",
+        "z": "531982eaf2e4e0fa",
+        "name": "",
+        "url": "/foodDELETE",
+        "method": "delete",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 220,
+        "y": 280,
+        "wires": [
+            [
+                "080f60ebe500387e"
+            ]
+        ]
+    },
+    {
+        "id": "c73c4e68b0c6e2d7",
+        "type": "http in",
+        "z": "531982eaf2e4e0fa",
+        "name": "",
+        "url": "/foodGET",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 200,
+        "y": 360,
+        "wires": [
+            [
+                "cfed6a7a68f47409"
+            ]
+        ]
+    },
+    {
+        "id": "99921f896e9e9bc2",
+        "type": "cloudantplus out",
+        "z": "531982eaf2e4e0fa",
+        "name": "",
+        "cloudant": "795d52a76d8cf8d5",
+        "database": "crohn-diario",
+        "service": "_ext_",
+        "payonly": true,
+        "operation": "insert",
+        "x": 470,
+        "y": 120,
+        "wires": [
+            [
+                "183c7f8905869f33"
+            ]
+        ]
+    },
+    {
+        "id": "25ddcaccf4e5d627",
+        "type": "cloudantplus out",
+        "z": "531982eaf2e4e0fa",
+        "name": "",
+        "cloudant": "795d52a76d8cf8d5",
+        "database": "crohn-diario",
+        "service": "_ext_",
+        "payonly": true,
+        "operation": "insert",
+        "x": 470,
+        "y": 200,
+        "wires": [
+            [
+                "11080c7a2da92c65"
+            ]
+        ]
+    },
+    {
+        "id": "080f60ebe500387e",
+        "type": "cloudantplus out",
+        "z": "531982eaf2e4e0fa",
+        "name": "",
+        "cloudant": "795d52a76d8cf8d5",
+        "database": "crohn-diario",
+        "service": "_ext_",
+        "payonly": true,
+        "operation": "delete",
+        "x": 470,
+        "y": 280,
+        "wires": [
+            [
+                "f5534e281c330d31"
+            ]
+        ]
+    },
+    {
+        "id": "cfed6a7a68f47409",
+        "type": "cloudantplus in",
+        "z": "531982eaf2e4e0fa",
+        "name": "",
+        "cloudant": "795d52a76d8cf8d5",
+        "database": "crohn-diario",
+        "service": "_ext_",
+        "search": "_id_",
+        "design": "",
+        "index": "",
+        "x": 470,
+        "y": 360,
+        "wires": [
+            [
+                "6c2e865c43c5b7cf"
+            ]
+        ]
+    },
+    {
+        "id": "183c7f8905869f33",
+        "type": "http response",
+        "z": "531982eaf2e4e0fa",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 710,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "11080c7a2da92c65",
+        "type": "http response",
+        "z": "531982eaf2e4e0fa",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 710,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "f5534e281c330d31",
+        "type": "http response",
+        "z": "531982eaf2e4e0fa",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 710,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "6c2e865c43c5b7cf",
+        "type": "http response",
+        "z": "531982eaf2e4e0fa",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 710,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "b1919bc27356834b",
+        "type": "http in",
+        "z": "7fb03d4e920acbcf",
+        "name": "",
+        "url": "/dailyFoodPOST",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 260,
+        "y": 140,
+        "wires": [
+            [
+                "ad323990766d6e9b"
+            ]
+        ]
+    },
+    {
+        "id": "fc85bd099ec35d7a",
+        "type": "http in",
+        "z": "7fb03d4e920acbcf",
+        "name": "",
+        "url": "/dailyFoodPUT",
+        "method": "put",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 250,
+        "y": 220,
+        "wires": [
+            [
+                "57ee26ab502893c9"
+            ]
+        ]
+    },
+    {
+        "id": "37aacb87d751457e",
+        "type": "http in",
+        "z": "7fb03d4e920acbcf",
+        "name": "",
+        "url": "/dailyFoodDELETE",
+        "method": "delete",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 270,
+        "y": 300,
+        "wires": [
+            [
+                "2dde8ca49ec124dd"
+            ]
+        ]
+    },
+    {
+        "id": "d2d023189fcccac4",
+        "type": "http in",
+        "z": "7fb03d4e920acbcf",
+        "name": "",
+        "url": "/dailyFoodGET",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 250,
+        "y": 380,
+        "wires": [
+            [
+                "962bbea2416f63ec"
+            ]
+        ]
+    },
+    {
+        "id": "ad323990766d6e9b",
+        "type": "cloudantplus out",
+        "z": "7fb03d4e920acbcf",
+        "name": "",
+        "cloudant": "795d52a76d8cf8d5",
+        "database": "crohn-diario",
+        "service": "_ext_",
+        "payonly": true,
+        "operation": "insert",
+        "x": 510,
+        "y": 140,
+        "wires": [
+            [
+                "bf60d8811a175d27"
+            ]
+        ]
+    },
+    {
+        "id": "57ee26ab502893c9",
+        "type": "cloudantplus out",
+        "z": "7fb03d4e920acbcf",
+        "name": "",
+        "cloudant": "795d52a76d8cf8d5",
+        "database": "crohn-diario",
+        "service": "_ext_",
+        "payonly": true,
+        "operation": "insert",
+        "x": 510,
+        "y": 220,
+        "wires": [
+            [
+                "1c5777caf66b65bd"
+            ]
+        ]
+    },
+    {
+        "id": "2dde8ca49ec124dd",
+        "type": "cloudantplus out",
+        "z": "7fb03d4e920acbcf",
+        "name": "",
+        "cloudant": "795d52a76d8cf8d5",
+        "database": "crohn-diario",
+        "service": "_ext_",
+        "payonly": true,
+        "operation": "delete",
+        "x": 510,
+        "y": 300,
+        "wires": [
+            [
+                "b10b90cd7407d5b9"
+            ]
+        ]
+    },
+    {
+        "id": "962bbea2416f63ec",
+        "type": "cloudantplus in",
+        "z": "7fb03d4e920acbcf",
+        "name": "",
+        "cloudant": "795d52a76d8cf8d5",
+        "database": "crohn-diario",
+        "service": "_ext_",
+        "search": "_id_",
+        "design": "",
+        "index": "",
+        "x": 510,
+        "y": 380,
+        "wires": [
+            [
+                "147fe59e2921ae44"
+            ]
+        ]
+    },
+    {
+        "id": "bf60d8811a175d27",
+        "type": "http response",
+        "z": "7fb03d4e920acbcf",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 750,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "1c5777caf66b65bd",
+        "type": "http response",
+        "z": "7fb03d4e920acbcf",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 750,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "b10b90cd7407d5b9",
+        "type": "http response",
+        "z": "7fb03d4e920acbcf",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 750,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "147fe59e2921ae44",
+        "type": "http response",
+        "z": "7fb03d4e920acbcf",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 750,
+        "y": 380,
+        "wires": []
+    }
+]

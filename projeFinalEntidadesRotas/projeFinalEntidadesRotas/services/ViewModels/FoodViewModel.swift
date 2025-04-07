@@ -3,8 +3,8 @@ import Foundation
 class ViewFood: ObservableObject {
     @Published var food: Food?
     
-    func fetch() {
-        guard let url = URL(string: "") else {
+    func GETFood() {
+        guard let url = URL(string: "http://192.168.128.7:1880/foodGET") else {
             return
         }
 

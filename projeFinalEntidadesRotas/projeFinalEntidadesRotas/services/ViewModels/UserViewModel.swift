@@ -3,8 +3,8 @@ import Foundation
 class ViewUser: ObservableObject {
     @Published var user: User?
     
-    func fetch() {
-        guard let url = URL(string: "") else {
+    func GETUser() {
+        guard let url = URL(string: "http://192.168.128.7:1880/userGET") else {
             return
         }
 
