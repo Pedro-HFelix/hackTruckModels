@@ -11,15 +11,4 @@ struct Food: Identifiable, Decodable {
     var id: Int?
     var name: String?
     var description: String?
-    var period: Period?
-}
-
-enum Period: String, CaseIterable, Codable {
-    case manha = "Manhã"
-    case tarde = "Tarde"
-    case noite = "Noite"
-    
-    var localizedDescription: String {
-        return self.rawValue
-    }
 }

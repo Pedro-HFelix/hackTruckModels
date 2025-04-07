@@ -10,5 +10,17 @@ import Foundation
 struct DailyFood: Identifiable, Decodable {
     var id: Int?
     var date: String?
-    var foods: [Food]?
+    var foodName: String?
+    var foodId: Int?
+    var period: Period?
+}
+
+enum Period: String, CaseIterable, Codable {
+    case manha = "Manhã"
+    case tarde = "Tarde"
+    case noite = "Noite"
+    
+    var localizedDescription: String {
+        return self.rawValue
+    }
 }
