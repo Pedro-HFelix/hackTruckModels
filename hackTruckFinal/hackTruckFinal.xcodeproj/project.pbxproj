@@ -7,11 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0155A31E2DA5827100E36EBF /* node-red-netwowork.md in Resources */ = {isa = PBXBuildFile; fileRef = 0155A31D2DA5827100E36EBF /* node-red-netwowork.md */; };
+		0155A3202DA582D200E36EBF /* flows.json in Resources */ = {isa = PBXBuildFile; fileRef = 0155A31F2DA582D200E36EBF /* flows.json */; };
+		0155A3232DA5831500E36EBF /* user.json in Resources */ = {isa = PBXBuildFile; fileRef = 0155A3222DA5831500E36EBF /* user.json */; };
+		0155A3272DA5834000E36EBF /* daily-food.json in Resources */ = {isa = PBXBuildFile; fileRef = 0155A3262DA5834000E36EBF /* daily-food.json */; };
+		0155A3292DA5835C00E36EBF /* daily-activity.json in Resources */ = {isa = PBXBuildFile; fileRef = 0155A3282DA5835C00E36EBF /* daily-activity.json */; };
+		0155A32B2DA5837500E36EBF /* medicine.json in Resources */ = {isa = PBXBuildFile; fileRef = 0155A32A2DA5837500E36EBF /* medicine.json */; };
+		0155A32E2DA584C100E36EBF /* DailyFoodViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0155A32D2DA584C100E36EBF /* DailyFoodViewModel.swift */; };
+		0155A3302DA584D400E36EBF /* DailyActivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0155A32F2DA584D400E36EBF /* DailyActivityViewModel.swift */; };
+		0155A3322DA584E500E36EBF /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0155A3312DA584E500E36EBF /* UserViewModel.swift */; };
+		0155A3342DA584F100E36EBF /* MedicineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0155A3332DA584F100E36EBF /* MedicineViewModel.swift */; };
+		0155A3362DA584FA00E36EBF /* FoodViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0155A3352DA584FA00E36EBF /* FoodViewModel.swift */; };
 		464269A22DA459E100B905AB /* hackTruckFinalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464269A12DA459E100B905AB /* hackTruckFinalApp.swift */; };
 		464269A42DA459E100B905AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464269A32DA459E100B905AB /* ContentView.swift */; };
 		464269A62DA459E200B905AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 464269A52DA459E200B905AB /* Assets.xcassets */; };
 		464269A92DA459E200B905AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 464269A82DA459E200B905AB /* Preview Assets.xcassets */; };
-		464269B12DA45A0700B905AB /* DailyActivitie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464269B02DA45A0700B905AB /* DailyActivitie.swift */; };
+		464269B12DA45A0700B905AB /* DailyActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464269B02DA45A0700B905AB /* DailyActivity.swift */; };
 		464269B32DA45A1E00B905AB /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464269B22DA45A1E00B905AB /* Food.swift */; };
 		464269B52DA45A3000B905AB /* Medicine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464269B42DA45A3000B905AB /* Medicine.swift */; };
 		464269B92DA45A5300B905AB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464269B82DA45A5300B905AB /* User.swift */; };
@@ -24,12 +35,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0155A31D2DA5827100E36EBF /* node-red-netwowork.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "node-red-netwowork.md"; sourceTree = "<group>"; };
+		0155A31F2DA582D200E36EBF /* flows.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = flows.json; sourceTree = "<group>"; };
+		0155A3222DA5831500E36EBF /* user.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = user.json; sourceTree = "<group>"; };
+		0155A3262DA5834000E36EBF /* daily-food.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "daily-food.json"; sourceTree = "<group>"; };
+		0155A3282DA5835C00E36EBF /* daily-activity.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "daily-activity.json"; sourceTree = "<group>"; };
+		0155A32A2DA5837500E36EBF /* medicine.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = medicine.json; sourceTree = "<group>"; };
+		0155A32D2DA584C100E36EBF /* DailyFoodViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyFoodViewModel.swift; sourceTree = "<group>"; };
+		0155A32F2DA584D400E36EBF /* DailyActivityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyActivityViewModel.swift; sourceTree = "<group>"; };
+		0155A3312DA584E500E36EBF /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		0155A3332DA584F100E36EBF /* MedicineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineViewModel.swift; sourceTree = "<group>"; };
+		0155A3352DA584FA00E36EBF /* FoodViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewModel.swift; sourceTree = "<group>"; };
 		4642699E2DA459E100B905AB /* hackTruckFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackTruckFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		464269A12DA459E100B905AB /* hackTruckFinalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hackTruckFinalApp.swift; sourceTree = "<group>"; };
 		464269A32DA459E100B905AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		464269A52DA459E200B905AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		464269A82DA459E200B905AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		464269B02DA45A0700B905AB /* DailyActivitie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyActivitie.swift; sourceTree = "<group>"; };
+		464269B02DA45A0700B905AB /* DailyActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyActivity.swift; sourceTree = "<group>"; };
 		464269B22DA45A1E00B905AB /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		464269B42DA45A3000B905AB /* Medicine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medicine.swift; sourceTree = "<group>"; };
 		464269B82DA45A5300B905AB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -52,6 +74,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0155A31C2DA5822D00E36EBF /* node-red */ = {
+			isa = PBXGroup;
+			children = (
+				0155A3212DA582FE00E36EBF /* json */,
+				0155A31D2DA5827100E36EBF /* node-red-netwowork.md */,
+				0155A31F2DA582D200E36EBF /* flows.json */,
+			);
+			path = "node-red";
+			sourceTree = "<group>";
+		};
+		0155A3212DA582FE00E36EBF /* json */ = {
+			isa = PBXGroup;
+			children = (
+				0155A3222DA5831500E36EBF /* user.json */,
+				0155A3262DA5834000E36EBF /* daily-food.json */,
+				0155A3282DA5835C00E36EBF /* daily-activity.json */,
+				0155A32A2DA5837500E36EBF /* medicine.json */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+		0155A32C2DA5847700E36EBF /* viewmodels */ = {
+			isa = PBXGroup;
+			children = (
+				0155A32D2DA584C100E36EBF /* DailyFoodViewModel.swift */,
+				0155A32F2DA584D400E36EBF /* DailyActivityViewModel.swift */,
+				0155A3312DA584E500E36EBF /* UserViewModel.swift */,
+				0155A3332DA584F100E36EBF /* MedicineViewModel.swift */,
+				0155A3352DA584FA00E36EBF /* FoodViewModel.swift */,
+			);
+			path = viewmodels;
+			sourceTree = "<group>";
+		};
 		464269952DA459E100B905AB = {
 			isa = PBXGroup;
 			children = (
@@ -71,11 +126,11 @@
 		464269A02DA459E100B905AB /* hackTruckFinal */ = {
 			isa = PBXGroup;
 			children = (
+				0155A32C2DA5847700E36EBF /* viewmodels */,
 				464269C72DA45BE200B905AB /* views */,
 				464269BC2DA45A8D00B905AB /* services */,
 				464269AF2DA459F300B905AB /* models */,
 				464269A12DA459E100B905AB /* hackTruckFinalApp.swift */,
-				464269A32DA459E100B905AB /* ContentView.swift */,
 				464269A52DA459E200B905AB /* Assets.xcassets */,
 				464269A72DA459E200B905AB /* Preview Content */,
 			);
@@ -93,7 +148,7 @@
 		464269AF2DA459F300B905AB /* models */ = {
 			isa = PBXGroup;
 			children = (
-				464269B02DA45A0700B905AB /* DailyActivitie.swift */,
+				464269B02DA45A0700B905AB /* DailyActivity.swift */,
 				464269B22DA45A1E00B905AB /* Food.swift */,
 				464269B42DA45A3000B905AB /* Medicine.swift */,
 				464269B82DA45A5300B905AB /* User.swift */,
@@ -105,6 +160,7 @@
 		464269BC2DA45A8D00B905AB /* services */ = {
 			isa = PBXGroup;
 			children = (
+				0155A31C2DA5822D00E36EBF /* node-red */,
 				464269BD2DA45AB200B905AB /* DailyActivitieViewModel.swift */,
 				464269BF2DA45ACA00B905AB /* DailyFoodViewModel.swift */,
 				464269C12DA45ADF00B905AB /* FoodViewModel.swift */,
@@ -117,6 +173,7 @@
 		464269C72DA45BE200B905AB /* views */ = {
 			isa = PBXGroup;
 			children = (
+				464269A32DA459E100B905AB /* ContentView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -179,8 +236,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0155A3292DA5835C00E36EBF /* daily-activity.json in Resources */,
+				0155A32B2DA5837500E36EBF /* medicine.json in Resources */,
 				464269A92DA459E200B905AB /* Preview Assets.xcassets in Resources */,
+				0155A3202DA582D200E36EBF /* flows.json in Resources */,
+				0155A31E2DA5827100E36EBF /* node-red-netwowork.md in Resources */,
 				464269A62DA459E200B905AB /* Assets.xcassets in Resources */,
+				0155A3272DA5834000E36EBF /* daily-food.json in Resources */,
+				0155A3232DA5831500E36EBF /* user.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,10 +261,15 @@
 				464269B32DA45A1E00B905AB /* Food.swift in Sources */,
 				464269B92DA45A5300B905AB /* User.swift in Sources */,
 				464269C42DA45AF300B905AB /* MedicineViewModel.swift in Sources */,
+				0155A3302DA584D400E36EBF /* DailyActivityViewModel.swift in Sources */,
 				464269B52DA45A3000B905AB /* Medicine.swift in Sources */,
 				464269BB2DA45A6900B905AB /* DailyFood.swift in Sources */,
 				464269A22DA459E100B905AB /* hackTruckFinalApp.swift in Sources */,
-				464269B12DA45A0700B905AB /* DailyActivitie.swift in Sources */,
+				464269B12DA45A0700B905AB /* DailyActivity.swift in Sources */,
+				0155A3342DA584F100E36EBF /* MedicineViewModel.swift in Sources */,
+				0155A32E2DA584C100E36EBF /* DailyFoodViewModel.swift in Sources */,
+				0155A3322DA584E500E36EBF /* UserViewModel.swift in Sources */,
+				0155A3362DA584FA00E36EBF /* FoodViewModel.swift in Sources */,
 				464269C02DA45ACA00B905AB /* DailyFoodViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

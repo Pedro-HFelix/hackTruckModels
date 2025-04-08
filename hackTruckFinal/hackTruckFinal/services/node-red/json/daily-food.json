@@ -1,0 +1,47 @@
+[
+    {
+      "id": 101,
+      "name": "Chá de camomila com torradas",
+      "description": "Leve e calmante, ideal para manhãs com Crohn"
+    },
+    {
+      "id": 102,
+      "name": "Iogurte com banana cozida",
+      "description": "Fácil digestão e sem lactose"
+    },
+    {
+      "id": 103,
+      "name": "Arroz com frango e purê de batata",
+      "description": "Fonte de proteína magra e carboidrato leve"
+    },
+    {
+      "id": 103,
+      "name": "Arroz com frango e purê de batata",
+      "description": "Fonte de proteína magra e carboidrato leve"
+    },
+    {
+      "id": 104,
+      "name": "Gelatina sem açúcar",
+      "description": "Sobremesa leve e refrescante, boa para digestão"
+    },
+    {
+      "id": 105,
+      "name": "Canja de galinha",
+      "description": "Refeição leve e reconfortante com legumes cozidos"
+    },
+    {
+      "id": 106,
+      "name": "Chá de ervas calmante",
+      "description": "Ajuda no relaxamento antes de dormir"
+    },
+    {
+      "id": 107,
+      "name": "Bebida vegetal com mel",
+      "description": "Alternativa ao leite para intolerantes à lactose"
+    },
+    {
+      "id": 108,
+      "name": "Fruta assada sem casca",
+      "description": "Docinho natural com boa tolerância digestiva"
+    }
+]
