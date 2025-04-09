@@ -9,19 +9,7 @@ import SwiftUI
 
 struct Home: View {
     @State var isChecked = false
-    @State private var showingSheet = false
-    @State var dailyFoods: [DailyFood] = [
-        DailyFood(id: 1, date: "2025-04-08", foodName: "Ovos", period: .manha),
-        DailyFood(id: 2, date: "2025-04-08", foodName: "Maçã", period: .tarde),
-        DailyFood(id: 3, date: "2025-04-08", foodName: "Arroz", period: .noite),
-        DailyFood(id: 4, date: "2025-04-08", foodName: "Iogurte",  period: .manha),
-        DailyFood(id: 5, date: "2025-04-08", foodName: "Sanduíche", period: .tarde),
-        DailyFood(id: 6, date: "2025-04-08", foodName: "Sopa", period: .noite),
-        DailyFood(id: 7, date: "2025-04-08", foodName: "Café com leite", period: .manha),
-        DailyFood(id: 8, date: "2025-04-08", foodName: "Banana", period: .tarde),
-        DailyFood(id: 9, date: "2025-04-08", foodName: "Feijão", period: .noite),
-        DailyFood(id: 10, date: "2025-04-08", foodName: "Torrada", period: .manha)
-    ]
+    @StateObject var viewModel = DailyFoodViewModel()
     
     var body: some View {
         ZStack {
@@ -115,7 +103,7 @@ struct Home: View {
                         Text("Manhã:")
                             .font(.title)
                         
-                        ForEach(dailyFoods.filter { $0.period == .manha }) { food in
+                        ForEach(viewModel.foods.filter { $0.period == .manha }) { food in
                             
                                 HStack(alignment: .center) {
                                     Text("\(food.foodName ?? "Alimento")")
@@ -137,7 +125,7 @@ struct Home: View {
                             .font(.title)
                             .padding(.top, 8)
                         
-                        ForEach(dailyFoods.filter { $0.period == .tarde }) { food in
+                        ForEach(viewModel.foods.filter { $0.period == .tarde }) { food in
                             HStack(alignment: .center) {
                                 Text("\(food.foodName ?? "Alimento")")
                                     .font(.body)
@@ -156,7 +144,7 @@ struct Home: View {
                             .font(.title)
                             .padding(.top, 8)
                         
-                        ForEach(dailyFoods.filter { $0.period == .noite }) { food in
+                        ForEach(viewModel.foods.filter { $0.period == .noite }) { food in
                             HStack(alignment: .center) {
                                 Text("\(food.foodName ?? "Alimento")")
                                     .font(.body)
@@ -175,6 +163,8 @@ struct Home: View {
                     
                 }.padding()
             }
+        }.onAppear {
+            viewModel.getDaily()
         }
     }
 }
